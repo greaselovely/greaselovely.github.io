@@ -12,3 +12,5 @@ layout: default
         </li>
     {% endfor %}
 </ul>
+
+<p><a href="/about/">About</a></p>

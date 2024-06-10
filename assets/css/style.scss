@@ -21,3 +21,22 @@ p {
     text-align: center;
     font-size: 1.2em;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #007acc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
