@@ -16,6 +16,3 @@ layout: default
     {% endfor %}
 </div>
 
-<div class="text-center">
-    <a href="/about/" class="btn btn-primary">About</a>
-</div>
