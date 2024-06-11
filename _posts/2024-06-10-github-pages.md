@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "GitHub Pages"
+author: "Shayne Sivley"
 date: 2024-06-10
 categories: blog
 ---
