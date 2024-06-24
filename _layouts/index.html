@@ -1,4 +1,4 @@
-<!-- _layouts/default.html -->
+<!-- _layouts/index.html -->
 <!DOCTYPE HTML>
 <!--
 	Future Imperfect by HTML5 UP
@@ -10,7 +10,7 @@
 		<title>Future Imperfect by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="{{ 'assets/css/main.css' | relative_url }}" />
 	</head>
 	<body class="is-preload">
 
@@ -95,7 +95,7 @@
 
 				<!-- Main -->
 					<div id="main">
-                        {% raw %}{{ content }}{% endraw %}
+                        {{ content }}
 						
 						<!-- Pagination -->
 							<ul class="actions pagination">
@@ -112,8 +112,8 @@
 							<section id="intro">
 								<a href="#" class="logo"><img src="images/logo.jpg" alt="" /></a>
 								<header>
-									<h2>Future Imperfect</h2>
-									<p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+									<h2>Pangalactic Post</h2>
+									<p>News From the End of the Universe</p>
 								</header>
 							</section>
 
@@ -241,11 +241,11 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="{{ assets/js/jquery.min.js | relative_url }}"></script>
+			<script src="{{ assets/js/browser.min.js | relative_url }}"></script>
+			<script src="{{ assets/js/breakpoints.min.js | relative_url }}"></script>
+			<script src="{{ assets/js/util.js | relative_url }}"></script>
+			<script src="{{ assets/js/main.js | relative_url }}"></script>
 
 	</body>
 </html>
