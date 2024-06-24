@@ -2,8 +2,8 @@
 # Site settings
 title: Pangalactic Post
 description: News from the End of the Universe
-baseurl: "" 
-url: "https://greaselovely.github.io" 
+baseurl: ""
+url: "https://greaselovely.github.io"
 
 # Build settings
 markdown: kramdown
@@ -14,11 +14,14 @@ lsi: false
 safe: true
 incremental: false
 highlighter: rouge
+
 gist:
   noscript: false
+
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+  input: GFM
 
 plugins:
-- jekyll-feed
+  - jekyll-feed
