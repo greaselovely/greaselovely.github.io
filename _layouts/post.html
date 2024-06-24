@@ -1,6 +1,6 @@
 <!-- _layouts/post.html -->
 ---
-layout: index
+layout: post
 ---
 <article class="post">
     <header>
@@ -9,15 +9,8 @@ layout: index
         </div>
         <div class="meta">
             <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
-            <a href="#" class="author"><span class="name">{{ page.author }}</span><img src="{{ site.baseurl }}/images/avatar.jpg" alt="" /></a>
+            <a href="#" class="author"><span class="name">{{ page.author }}</span><img src="{{ 'images/avatar.jpg' | relative_url }}" alt="" /></a>
         </div>
     </header>
     {{ content }}
-    <footer>
-        <ul class="stats">
-            {% for category in page.categories %}
-                <li><a href="#">{{ category }}</a></li>
-            {% endfor %}
-        </ul>
-    </footer>
 </article>
