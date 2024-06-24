@@ -1,32 +1,22 @@
-<!-- _layouts/post.html -->
 ---
 layout: default
 ---
-
-<!-- Post -->
 <article class="post">
     <header>
         <div class="title">
             <h2>{{ page.title }}</h2>
-            {% if page.description %}
-                <p>{{ page.description }}</p>
-            {% endif %}
         </div>
         <div class="meta">
             <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
-            <a href="#" class="author"><span class="name">{{ page.author | default: site.author }}</span><img src="{{ site.baseurl }}/images/avatar.jpg" alt="" /></a>
+            <a href="#" class="author"><span class="name">{{ page.author }}</span><img src="{{ site.baseurl }}/images/avatar.jpg" alt="" /></a>
         </div>
     </header>
-    {% if page.image %}
-        <span class="image featured"><img src="{{ page.image }}" alt="" /></span>
-    {% endif %}
     {{ content }}
     <footer>
         <ul class="stats">
-            {% if page.categories %}
-                <li><a href="#">{{ page.categories | first }}</a></li>
-            {% endif %}
-            <!-- You can add more stats here if you want, like comments or likes -->
+            {% for category in page.categories %}
+                <li><a href="#">{{ category }}</a></li>
+            {% endfor %}
         </ul>
     </footer>
 </article>
