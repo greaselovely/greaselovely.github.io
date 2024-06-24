@@ -13,7 +13,7 @@ layout: index
                 <a href="#" class="author"><span class="name">{{ post.author }}</span><img src="{{ site.baseurl }}/images/avatar.jpg" alt="" /></a>
             </div>
         </header>
-        {{ post.excerpt }}
+        {{ post.excerpt  | markdownify }}
         <footer>
             <ul class="actions">
                 <li><a href="{{ post.url | relative_url }}" class="button large">Continue Reading</a></li>
