@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Start Wearing Purple"
-date: 2024-06-25
+date: 2024-06-2
 author: John Doe
 ---
 Start wearing purple, wearing purple
