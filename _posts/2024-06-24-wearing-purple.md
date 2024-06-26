@@ -3,7 +3,6 @@ layout: default
 title: "Start Wearing Purple"
 date: 2024-06-2
 author: John Doe
-preserve_linebreaks: true
 ---
 Start wearing purple, wearing purple
 Start wearing purple for me now
