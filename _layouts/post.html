@@ -1,19 +1,20 @@
 <!-- _layouts/post.html -->
 ---
-layout: post
+layout: default
 ---
 <article class="post">
     <header>
         <div class="title">
-            <h2>{{ page.title }}</h2>
+            <h1>{{ page.title }}</h1>
         </div>
         <div class="meta">
             <time class="published" datetime="{{ page.date | date: '%Y-%m-%d' }}">{{ page.date | date: "%B %d, %Y" }}</time>
-            <a href="#" class="author"><span class="name">{{ page.author }}</span><img src="{{ 'images/avatar.jpg' | relative_url }}" alt="" /></a>
+            <span class="author">by {{ page.author }}</span>
+            <a href="#" class="author-image"><img src="{{ 'images/avatar.jpg' | relative_url }}" alt="{{ page.author }}" /></a>
         </div>
     </header>
-    <h1>{{page.title}}</h1>
-    <h2>{{page.date}}</h2>
-    <h2>by {{page.author}} </h2>
-    {{ content }}
+    
+    <div class="content">
+        {{ content }}
+    </div>
 </article>
