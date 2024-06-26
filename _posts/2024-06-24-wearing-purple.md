@@ -4,8 +4,8 @@ title: "Start Wearing Purple"
 date: 2024-06-2
 author: John Doe
 ---
-Start wearing purple, wearing purple
-Start wearing purple for me now
+Start wearing purple, wearing purple\n
+Start wearing purple for me now\n
 All your sanity and wits, they will all vanish
 I promise, it's just a matter of time
 Start wearing purple, wearing purple
