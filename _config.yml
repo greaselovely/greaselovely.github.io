@@ -5,6 +5,9 @@ baseurl: ""
 url: "https://greaselovely.github.io"
 
 markdown: kramdown
+kramdown:
+   input: GFM
+   hard_wrap: true
 permalink: /blog/:year/:month/:day/:title:output_ext
 
 plugins:

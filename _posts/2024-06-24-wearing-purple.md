@@ -3,9 +3,10 @@ layout: default
 title: "Start Wearing Purple"
 date: 2024-06-2
 author: John Doe
+preserve_linebreaks: true
 ---
-Start wearing purple, wearing purple<br>
-Start wearing purple for me now<br>
+Start wearing purple, wearing purple
+Start wearing purple for me now
 All your sanity and wits, they will all vanish
 I promise, it's just a matter of time
 Start wearing purple, wearing purple
