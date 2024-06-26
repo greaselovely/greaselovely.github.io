@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: post
 title: "Start Wearing Purple"
-date: 2024-06-2
+date: 2024-06-25
 author: John Doe
 ---
 Start wearing purple, wearing purple

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Can't Stand the Pain"
 date: 2024-06-24
 author: John Doe
