@@ -12,5 +12,7 @@ layout: post
             <a href="#" class="author"><span class="name">{{ page.author }}</span><img src="{{ 'images/avatar.jpg' | relative_url }}" alt="" /></a>
         </div>
     </header>
-    {{ content }}
+    <div class="post-content"{% if page.preserve_linebreaks %} style="white-space: pre-wrap;"{% endif %}>
+        {{ content }}
+    </div>
 </article>
